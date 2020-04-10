@@ -1,0 +1,210 @@
+@font-face {
+font-family: 'Raleway';
+src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Montserrat';
+src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1920px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+header {
+	min-height: 1024px;
+	background-image: url(../img/main_photo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 0;
+}
+
+.header-nav {
+	display: flex;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.header-logo {
+	fill: #ffffff;
+	margin: 0 0 0 340px;
+}
+
+.header-logo:hover {
+	fill: #c7b299;
+}
+
+.logo-text {
+	font-family: Raleway;
+	font-size: 34px;
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #ffffff;
+	display: block;
+	min-height: 59px;
+	padding: 10px 0 0 0;
+}
+
+.logo-text:hover {
+	color: #c7b299;
+}
+
+.logo-text-link {
+	text-decoration: none;
+}
+
+.header-nav-list {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0 0 220px;
+}
+
+.header-nav-list-item {
+	list-style-type: none;
+	margin: 0 27px 0 0;
+}
+
+.header-nav-link {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #ffffff;
+}
+
+.header-nav-link:hover {
+	color: #c7b299;
+}
+
+.menu-link-active {
+	color: #c7b299;
+}
+
+.header-basket {
+	height: 0px;
+	margin: 10px 0 0 30px;
+}
+
+.header-search {
+	margin: 10px 0 0 20px;
+}
+
+input[type="search"] {
+	width: 24px;
+	height: 24px;
+	color: #ffffff;
+	padding: 0 0 0 10px;
+	outline: none;
+	background-image: url(../img/icon_search.png);
+	background-color: transparent;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px solid transparent;
+}
+
+input[type="search"]:focus {
+	width: 300px;
+	transition: width is ease-out;
+	background-position: right;
+	border: 1px solid gray;
+}
+
+.header-switch {
+	/*	position: absolute;*/
+	display: block;
+	margin: 40px;
+	width: 50px;
+	height: 50px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	transform: rotate(45deg);
+	margin: 100px;
+}
+
+.header-switch:hover {
+	/*	position: absolute;*/
+	border-top: 2px solid orange;
+	border-right: 2px solid orange;
+}
+
+.header-carousel {
+	display: flex;
+	margin: 0 0 0 0;
+}
+
+.header-switch {}
+
+.carousel {}
+
+.carousel-h2 {}
+
+.carousel-h1 {}
+
+.carousel-p {}
+
+.carousel-button {}
+
+.header-pagination {
+	width: 180px;
+	display: flex;
+	justify-content: space-between;
+	/*	position: absolute;*/
+}
+
+.header-pagination-item {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-color: aqua;
+	border-radius: 50%;
+	border: 2px solid gold;
+}
+
+.header-pagination-item:hover {
+	background-color: transparent;
+	border: 2px solid gold;
+	transform: scale(1.2);
+}
+
+.facilities {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 300px;
+	padding: 10px 10px 0 10px;
+	box-sizing: border-box;
+}
+
+.facilities:after {
+	content: "";
+	display: block;
+	width: 150px;
+	height: 3px;
+	background-color: brown;
+}
+
+.facilities:hover .facitility-icon {
+	fill: gold;
+}
+
+.facilities:hover .facitility-title {
+	fill: gold;
+}
+
+.facitility {}
+
+.facitility-icon {}
+
+.facitility-title {}
+
+.facitility-text {}
